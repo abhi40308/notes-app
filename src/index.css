@@ -58,6 +58,31 @@ main {
 }
 
 /*
+** NOTE FORM FILTER
+*/
+
+.noteform-filter {
+  display: block;
+  width: 100%;
+  /* max-width: 480px; */
+  /* margin: 0 auto 15px; */
+}
+.noteform-filter h3 {
+  color: #171717;
+}
+.noteform-filter .form-group {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.noteform-filter .form-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*
 ** NOTES LIST
 */
 .notes {
