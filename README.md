@@ -1,4 +1,11 @@
+## Notes app
 
+Notes app created using react and firebase realtime database.
+Functionalities:
+* Create notes with sync with firebase realtime database.
+* Update notes in place, synced with firebase realtime database.
+* Delete notes, synced with firebase
+* Filter through notes on basis of tags, cretion date (client side filtering)
 
 ## Available Scripts
 
