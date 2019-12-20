@@ -107,11 +107,7 @@ class App extends Component {
   }
 
   clearFilters() {
-    if (
-      this.state.notes.length === 0 ||
-      this.state.filterTag !== "" ||
-      this.state.filterDate !== ""
-    ) {
+    if (this.state.filter) {
       this.setState({
         filteredNotes: [],
         filterTag: "",
